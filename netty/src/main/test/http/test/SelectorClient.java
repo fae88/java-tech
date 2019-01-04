@@ -1,4 +1,4 @@
-package com.gemini.cloud.service.netty.nio.test;
+package http.test;
 
 public class SelectorClient {
 

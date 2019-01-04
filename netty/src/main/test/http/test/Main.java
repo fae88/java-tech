@@ -1,4 +1,4 @@
-package com.gemini.cloud.service.netty.nio.test;
+package http.test;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

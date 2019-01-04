@@ -1,4 +1,4 @@
-package com.gemini.cloud.service.netty.nio.test;
+package http.test;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.nio.channels.Selector;

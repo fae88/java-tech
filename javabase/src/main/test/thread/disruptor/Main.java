@@ -26,9 +26,10 @@ public class Main {
         // Get the ring buffer from the Disruptor to be used for publishing.
         RingBuffer<LongEvent> ringBuffer = disruptor.getRingBuffer();
 
-        LongEventProducer producer = new LongEventProducer(ringBuffer);
+//        LongEventProducer producer = new LongEventProducer(ringBuffer);
 
-        ByteBuffer bb = ByteBuffer.allocate(8);for (long l = 0; true; l++) {
+        ByteBuffer bb = ByteBuffer.allocate(8);
+        for (long l = 0; true; l++) {
             bb.putLong(0, l);
             ringBuffer.publishEvent((event, sequence, buffer) -> event.setValue(buffer.getLong(0)), bb);
             Thread.sleep(1000);

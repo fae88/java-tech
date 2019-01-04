@@ -88,6 +88,7 @@
         <module>netty</module>
         <module>guava</module>
         <module>javabase</module>
+        <module>okhttp</module>
     </modules>
 
 
