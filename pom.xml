@@ -22,6 +22,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <flink.version>1.7.1</flink.version>
     </properties>
 
     <dependencies>
@@ -89,6 +90,8 @@
         <module>guava</module>
         <module>javabase</module>
         <module>okhttp</module>
+        <module>flink</module>
+        <module>kafka</module>
     </modules>
 
 
